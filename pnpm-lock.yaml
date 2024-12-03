@@ -11,6 +11,12 @@ importers:
       '@tailwindcss/typography':
         specifier: ^0.5.15
         version: 0.5.15(tailwindcss@3.4.15)
+      mode-watcher:
+        specifier: ^0.5.0
+        version: 0.5.0(svelte@5.4.0)
+      svelte-lucide:
+        specifier: ^2.0.1
+        version: 2.0.1(svelte@5.4.0)
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.3
@@ -1024,6 +1030,11 @@ packages:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
 
+  mode-watcher@0.5.0:
+    resolution: {integrity: sha512-5E6fh/aXhAVv+U+DbeM0hCmskQE9u7WSmvnCRijJB/MJu7HtB73sjiCaZ9n1M8QHmzLrBFo8XBAUcWXkDm8Z9A==}
+    peerDependencies:
+      svelte: ^4.0.0 || ^5.0.0-next.1
+
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
     engines: {node: '>=4'}
@@ -1372,6 +1383,12 @@ packages:
     peerDependenciesMeta:
       svelte:
         optional: true
+
+  svelte-lucide@2.0.1:
+    resolution: {integrity: sha512-VjcVYrgTBC9ZyUCIYT0pzFCSzOOBj5zKxQ9UTzq9GmJSjxwq0PPRmdsIl0F38bQ2IhAtuCLs0gkl56Xw8621rQ==}
+    engines: {node: '>=18.0.0', npm: '>=7.0.0'}
+    peerDependencies:
+      svelte: ^5.0.0
 
   svelte@5.4.0:
     resolution: {integrity: sha512-2I/mjD8cXDpKfdfUK+T6yo/OzugMXIm8lhyJUFM5F/gICMYnkl3C/+4cOSpia8TqpDsi6Qfm5+fdmBNMNmaf2g==}
@@ -2394,6 +2411,10 @@ snapshots:
 
   minipass@7.1.2: {}
 
+  mode-watcher@0.5.0(svelte@5.4.0):
+    dependencies:
+      svelte: 5.4.0
+
   mri@1.2.0: {}
 
   mrmime@2.0.0: {}
@@ -2668,6 +2689,10 @@ snapshots:
       postcss: 8.4.49
       postcss-scss: 4.0.9(postcss@8.4.49)
     optionalDependencies:
+      svelte: 5.4.0
+
+  svelte-lucide@2.0.1(svelte@5.4.0):
+    dependencies:
       svelte: 5.4.0
 
   svelte@5.4.0:
