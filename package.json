@@ -11,6 +11,16 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint ."
 	},
+	"engines": {
+		"pnpm": ">=9",
+		"node": ">=18"
+	},
+	"packageManager": "pnpm@9.14.4",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Tsuzat/KanNote.git"
+	},
+	"license": "MIT",
 	"devDependencies": {
 		"@eslint/compat": "^1.2.3",
 		"@sveltejs/adapter-auto": "^3.0.0",
