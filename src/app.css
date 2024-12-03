@@ -32,6 +32,24 @@
 		--sidebar-accent-foreground: 240 5.9% 10%;
 		--sidebar-border: 220 13% 91%;
 		--sidebar-ring: 217.2 91.2% 59.8%;
+
+		font-size: 16px !important;
+		font-family: 'DM Sans Variable', sans-serif;
+		line-height: 16px;
+		font-weight: 400;
+		font-synthesis: none;
+		text-rendering: optimizeLegibility;
+
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-text-size-adjust: 100%;
+
+		/* Color Picker Specific */
+		--cp-bg-color: var(--muted);
+		--cp-border-color: var(--border);
+		--cp-text-color: var(--foreground);
+		--cp-input-color: var(--input);
+		--cp-button-hover-color: (--primary);
 	}
 
 	.dark {
